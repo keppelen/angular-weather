@@ -13,8 +13,6 @@ describe('Directive: weather', function () {
   }));
 
   it('should make hidden element visible', inject(function ($compile) {
-    element = angular.element('<weather></weather>');
-    element = $compile(element)(scope);
-    expect(element.text()).toBe('this is the weather directive');
+    
   }));
 });

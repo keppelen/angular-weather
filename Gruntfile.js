@@ -381,8 +381,6 @@ module.exports = function (grunt) {
         'svgmin'
       ]
     },
-
-    // Test settings
     karma: {
       unit: {
         configFile: 'test/karma.conf.js',
