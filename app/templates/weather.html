@@ -1,0 +1,19 @@
+<div class="col-sm-3 ">
+	<h3>
+		<img ng-src="http://openweathermap.org/img/w/{{ weather.icon }}.png" alt="">
+		{{ weatherGlobal.name }} <small>{{ weatherGlobal.sys.country }}</small>
+	</h3>
+	<p>
+		<span class="col-md-12">
+			<strong>temp:</strong> <span>{{ celcius }} °C</span> /
+			<strong>min:</strong> <span>{{ tempMin }} °C</span> /
+			<strong>max:</strong> <span>{{ tempMax }} °C</span>
+		</span>
+		
+		<span class="col-md-12">
+			<strong>temp:</strong> <span>{{ weatherGlobal.main.temp }} °F</span> /
+			<strong>min:</strong> <span>{{ weatherGlobal.main.temp_min }} °F</span> /
+			<strong>max:</strong> <span>{{ weatherGlobal.main.temp_max }} °F</span>
+		</span>
+	</p>
+</div>
