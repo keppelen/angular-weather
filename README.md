@@ -1,4 +1,4 @@
-#Widget clima tempo
+#Widget clima tempo [![Build Status](https://travis-ci.org/keppelen/angular-weather.svg)](https://travis-ci.org/keppelen/angular-weather)
 
 ![Alt text](https://i.cloudup.com/Xi7_Y5FROf-3000x3000.png)
 
